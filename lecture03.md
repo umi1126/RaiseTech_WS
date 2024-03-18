@@ -15,7 +15,6 @@ APサーバーは、pumaでした。
 
 <br>
 <br>
-<br>
 
 * バージョンを確認
 
@@ -28,13 +27,11 @@ pumaのバージョンは5.6.8
 
 <br>
 <br>
-<br>
 
 * puma(APサーバー)を停止するとアプリが起動しなくなり、再起動させるとアプリが動作することを確認。
 
 ![サーバー停止](/RaiseTech_WS/lecture-img/apstop.png)
 
-<br>
 <br>
 <br>
 
@@ -56,20 +53,30 @@ DBサーバーは、MySQLで、バージョンは8.0.36でした。
 
 <br>
 <br>
-<br>
 
 * MySQL(DBサーバー)を停止すると、エラーが出て処理がうまくいかない様子。
+
+```
+$ sudo service mysqld stop
+```
+
 ![DBサーバーの停止](RaiseTech_WS/lecture-img/mysql_stop.png)
 
 <br>
 <br>
-<br>
 
 * MySQL(DBサーバー)を再起動させると、アプリが正常に動作しました。
+
+```
+$ sudo service mysqld restart
+```
+
 ![DBサーバーの再起動](RaiseTech_WS/lecture-img/mysql_restart.png)
 
 <br>
 <br>
-<br>
 
-* Railsの構成管理ツールは
+* Gemfileを確認すると、構成管理ツールはBundlerが使用され、様々なGemファイルが管理されていました。
+
+![構成ファイル](RaiseTech_WS/lecture-img/bundler.png)
+
