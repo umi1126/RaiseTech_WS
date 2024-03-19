@@ -10,7 +10,7 @@
 $ rails s
 ```
 
-![APサーバー確認](/RaiseTech_WS/lecture-img/aplog.png)
+![APサーバー確認](lecture-img/aplog.png)
 APサーバーは、pumaでした。
 
 <br>
@@ -22,7 +22,7 @@ APサーバーは、pumaでした。
 $ puma
 ```
 
-![APサーバー](/RaiseTech_WS/lecture-img/puma.png)
+![APサーバー](lecture-img/puma.png)
 pumaのバージョンは5.6.8
 
 <br>
@@ -30,7 +30,7 @@ pumaのバージョンは5.6.8
 
 * puma(APサーバー)を停止するとアプリが起動しなくなり、再起動させるとアプリが動作することを確認。
 
-![サーバー停止](/RaiseTech_WS/lecture-img/apstop.png)
+![サーバー停止](lecture-img/apstop.png)
 
 <br>
 <br>
@@ -48,7 +48,7 @@ pumaのバージョンは5.6.8
 $ rails dbconsole
 ```
 
-![DBサーバー](/RaiseTech_WS/lecture-img/dblog.png)
+![DBサーバー](lecture-img/dblog.png)
 DBサーバーは、MySQLで、バージョンは8.0.36でした。
 
 <br>
@@ -60,7 +60,7 @@ DBサーバーは、MySQLで、バージョンは8.0.36でした。
 $ sudo service mysqld stop
 ```
 
-![DBサーバーの停止](RaiseTech_WS/lecture-img/mysql_stop.png)
+![DBサーバーの停止](lecture-img/mysql_stop.png)
 
 <br>
 <br>
@@ -71,12 +71,12 @@ $ sudo service mysqld stop
 $ sudo service mysqld restart
 ```
 
-![DBサーバーの再起動](RaiseTech_WS/lecture-img/mysql_restart.png)
+![DBサーバーの再起動](lecture-img/mysql_restart.png)
 
 <br>
 <br>
 
 * Gemfileを確認すると、構成管理ツールはBundlerが使用され、様々なGemファイルが管理されていました。
 
-![構成ファイル](RaiseTech_WS/lecture-img/bundler.png)
+![構成ファイル](lecture-img/bundler.png)
 
