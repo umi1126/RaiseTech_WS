@@ -1,10 +1,10 @@
 # 課題４
 
-* EC2の構築と起動の確認
+* EC2の構築と起動の確認　→修正
 
-   ![EC2構築](lecture-img/EC2.png )　
+   ![EC2構築](lecture-img/EC2-2.png )　
    
-   ![EC2構築](lecture-img/EC2-start.png)
+   ![EC2構築](lecture-img/EC2-start-2.png)
 <br>
 
 * RDSの構築
@@ -28,13 +28,13 @@
    ![セキュリティーグループ](lecture-img/SecurityGroup.png)
 <br>
 
-* サブネット(詳細)
+* サブネット(詳細)　→修正
 
-   ![サブネット1](lecture-img/subnet-1.png) 
+   ![サブネット1](lecture-img/subnet-1a.png) 
   
-   ![サブネット2](lecture-img/subnet-2.png)
+   ![サブネット2](lecture-img/subnet-1c.png)
 
-   ![サブネット3](lecture-img/subnet-3.png)
+   ![サブネット3](lecture-img/subnet-1d.png)
 <br>
 
 * EC2セキュリティーグループ
@@ -47,9 +47,9 @@
    ![RDSセキュリティーグループ](lecture-img/RDS-security.png)
 <br>
 
-* MySQLへの接続
+* MySQLへの接続　→要修正
 
-   ![MySQLß接続](lecture-img/L2023_MySQL.png)
+   ![MySQLß接続](lecture-img/Mysql-EC2to.png)
 <br>
 
 ---
