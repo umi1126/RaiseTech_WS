@@ -17,7 +17,6 @@
    ![接続確認](lecture-img/EC2toRDSconect.png)
 <br>
 
-   (以下追加) 
 * VPCの作成
 
    ![VPC構築](lecture-img/NewVPC.png)
@@ -37,7 +36,7 @@
    ![サブネット3](lecture-img/subnet-1d.png)
 <br>
 
-* サブネット(詳細) →追加
+* ルートテーブル　→追加
 
    ![ルートテーブル](lecture-img/root.png) 
 <br>
@@ -76,14 +75,14 @@
 
 1. GPGキーの有効期限<br>
 → インストールする際、改竄防止のGPG Keyが存在しないと言うエラーが出てしまう。
+ 
+ ```
+ rpm --import https://repo.mysql.com/RPM-GPG-KEY-mysql-2023
+ ```
+ を実行してキーを更新して再度インストールの実行で解決。
 
-```
-rpm --import https://repo.mysql.com/RPM-GPG-KEY-mysql-2023
-```
-　を実行してキーを更新して再度インストールの実行で解決。<br>
-　<br>
 ---
-<br>
+
 MySQL関連で苦戦したが、障害の切り分けには自分が今どの位置にいて、実行したいことは何か??<br>
 その前手順と本手順の確認。どこまで実行できているのか、依存関係（バージョンや期限）の確認<br>
 とても些細なことかもしれないが、何か一つが欠けていると実行できずERRになるので状況確認が大切<br>
