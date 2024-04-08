@@ -1,6 +1,6 @@
 # 課題４
 
-* EC2の構築と起動の確認　→修正
+* EC2の構築と起動の確認
 
    ![EC2構築](lecture-img/EC2-2.png )　
    
@@ -18,7 +18,7 @@
 <br>
 
    (以下追加) 
-* VPCの作成（初回up忘れ）
+* VPCの作成
 
    ![VPC構築](lecture-img/NewVPC.png)
 <br>
@@ -28,13 +28,18 @@
    ![セキュリティーグループ](lecture-img/SecurityGroup.png)
 <br>
 
-* サブネット(詳細)　→修正
+* サブネット(詳細)
 
    ![サブネット1](lecture-img/subnet-1a.png) 
   
    ![サブネット2](lecture-img/subnet-1c.png)
 
    ![サブネット3](lecture-img/subnet-1d.png)
+<br>
+
+* サブネット(詳細) →追加
+
+   ![ルートテーブル](lecture-img/root.png) 
 <br>
 
 * EC2セキュリティーグループ
@@ -47,9 +52,9 @@
    ![RDSセキュリティーグループ](lecture-img/RDS-security.png)
 <br>
 
-* MySQLへの接続　→要修正
+* MySQLへの接続　→修正
 
-   ![MySQLß接続](lecture-img/Mysql-EC2to.png)
+   ![MySQLß接続](lecture-img/Mysql-EC2toRDS.png)
 <br>
 
 ---
