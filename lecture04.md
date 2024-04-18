@@ -38,7 +38,7 @@
 
 * ルートテーブル　→追加
 
-   ![ルートテーブル](lecture-img/root.png) 
+   ![ルートテーブル](lecture-img/root&sub.png) 
 <br>
 
 * EC2セキュリティーグループ
